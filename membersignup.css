@@ -1,0 +1,69 @@
+body {
+	color: #404040;
+	background: #0ca3d2;
+}
+
+h1 {
+    text-align:center;
+}
+
+.container {
+	margin: 50px 250px 250px 400px;
+	width: 500px;
+}
+
+.login {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 20px 20px;
+	width: 310px;
+}
+.login:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.login h1 {
+	margin: -20px -20px 21px;
+	text-align: center;
+	
+}
+
+.login input[type=email], .login input[type=password] {
+	width: 278px;
+}
+
+fieldset {
+  
+  content: '';
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+
+.container {
+        width: 500px;
+        clear: both;
+    }
+    .container input {
+        width: 50%;
+        clear: both;
+    }
+
+#submit, #reset {
+    width:auto;
+    padding:2px;
+}
+

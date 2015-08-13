@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Practice Learning</title>
+    <link rel="stylesheet" type="text/css" href="parkStyle.css" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.js"></script>
+    
+    <script type="text/javascript" src="parkscript3.js"></script>
+    <!--<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>-->
+
+</head>
+<body onload="substitute();">
+    <!--menu-->
+    <section id="faqs" class="vertical">
+        <h2><a href="#" id="first_link">Menu</a></h2>
+        <div id="menubox" class="closed">
+            <p><a href="#">Home</a> <a href="#">Photos</a> <a href="#">Links</a> <a href="#">Contact</a></p>
+            <!--<p><a href="#">Photos</a></p>
+            <p><a href="#">Links</a></p>
+            <p><a href="#">Contact</a></p>-->
+        </div>
+        <!--banners-->
+    </section>
+   
+    
+    <div id="border">
+        <section id="park">
+            <div>
+                <header>Welcome to Amazing Cats!</header>
+            </div>
+            <h1> Let's Go on an Adventure To...</h1>
+            <h2 id="title">*</h2>
+
+            <!--  <nav class="horizontal">
+                  <ul>
+                      <li><a href="webpage1.html">Home</a></li>
+                      <li><a href="Parks.html">Parks</a></li>
+                      <li><a href="Contact">Contact</a></li>
+                      <li><a href="Planning">Planning</a></li>
+                  </ul>
+              </nav>-->
+
+            <form id="name">
+                What's Your Name?<br />
+                <input type="text" name="visitorname" id="visitorName" />
+                <br />
+                <input type="button" name="nameButton" id="nameButton" value="Submit" />
+                <br /><br />
+            </form>
+            <h1 id="success">You Should Not See This</h1>
+
+
+            <h3 id="game">One of these Kitties is a spy, click to find out which!</h3>
+
+            <div id="kitties">
+                <button type="button" name="buttontest" value="clicked" id="kittenbutton1" onclick="alert('Meow')">Click me! <img src="kitten.jpg" id="cat1" /></button>
+                <button type="button" name="buttontest" value="clicked" id="kittenbutton2" onclick="alert('Meow')">Click me! <img src="kitten.jpg" id="cat2" /></button>
+                <button type="button" name="buttontest" value="clicked" id="kittenbutton3" onclick="spy()">Click me! <img src="kitten.jpg" id="catpic" /></button>
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2 id="caption">Welcome to Nature</h2>
+            <img id="slide" src="nature1.jpg" alt="" />
+            <div id="slides">
+                <img src="nature1.jpg" alt="Do you like trees?" />
+                <img src="nature2.jpg" alt="Do you like lakes?" />
+                <img src="nature3.jpg" alt="Do you like the ocean?" />
+            </div>
+
+        </section>
+        <!--faq menu
+         <section id="faqs">
+             <h1>Kitty FAQs</h1>
+             <h2><a href="#" id="first_link">So Why Kittens?</a></h2>
+             <div class="closed">
+                 <p>Are you kidding? Kittens are adorable.</p>
+             </div>
+             <h2><a href="#">Why are Kittens so popular?</a></h2>
+             <div class="closed">
+                 <p>Three Reasons:</p>
+                 <ul>
+                     <li>Their Noses</li>
+                     <li>Their Eyes</li>
+                     <li>Their Fur!</li>
+                 </ul>
+             </div>
+             <h2><a href="#">Which is better, a puppy or a kitten?</a></h2>
+             <div class="closed">
+                 <p>You Decide!</p>
+             </div>
+
+         </section>-->
+
+
+
+
+        <!--purple strecth menu-->
+        <!--<div id="menuborder">
+        <nav class="vertical">
+            <ul>
+                <li>
+                    <label for="home">Home</label>
+                    <input type="radio" name="verticalMenu" id="home" />
+                    <div>
+                        <ul>
+                            <li><a href="#">Index</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Corporate</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">References</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <label for="blog">Blog</label>
+                    <input type="radio" name="verticalMenu" id="blog" />
+                    <div>
+                        <ul>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Inspiration</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <label for="work">Work</label>
+                    <input type="radio" name="verticalMenu" id="work" />
+                    <div>
+                        <ul>
+                            <li><a href="#">Client Login</a></li>
+                            <li><a href="#">Get Quote</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            </div>-->
+
+
+
+
+
+
+
+
+            <!--<section id="kittenPG">
+             <h1>How many Kittens/m?</h1>
+             <label for="Kittens">Kittens</label>
+             <input type="text" id="kittens" /><br />
+             <label for="Miles">Miles</label>
+             <input type="text" id="miles" /><br />
+             <label for="kpm">Kittens per mile</label>
+             <input type="text" id="kpm" disabled /><br />
+             <label>&nbsp;</label>
+             <input type="button" id="calculate" value="Calculate KPM" />
+         </section>-->
+</div>
+</body>
+</html>

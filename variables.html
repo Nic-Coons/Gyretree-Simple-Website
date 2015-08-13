@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Variables</title>
+    <script type="text/javascript">
+
+        var playlist = [];
+
+        playlist[0] = "One for the team";
+        playlist[1] = "BNL";
+        playlist[2] = "Smash mouth";
+        playlist[3] = "Honky Tonk";
+
+        for (var i = 0; i < playlist.length; i++)
+        {
+            document.write("<br> Now playing " + playlist[i]);
+        }
+       
+        for (i in playlist) {
+            document.write("<br> Now Playing: " + playlist[i]);
+        }
+
+       
+
+        /*
+        var i = 0;
+        while (i < playlist.length) {
+            document.write("<br> Now Playing: " + playlist[i]);
+            i++;
+        }*/
+           
+
+        /*
+        var candidates = ["Nic", "Debra", "Isaac"];
+        alert(candidates[0] + " is hungry!")
+      
+        var flightDate = new Date("August 6, 2015");
+        var myValues = ["International", 42, flightDate];
+
+        for (i in myValues)
+        {
+            document.write("<br>" + myValues[i]);
+        }
+
+        /*function myNewFunction(myValue) {
+            alert("Howdy!" + myValue);
+        }
+      
+        myValue = document.getElementById("myValue");
+
+       function add() {
+            var tempValue = 0;
+            for (i = 0; i < arguments.length; i++)
+            {
+                tempValue += arguments[i];
+            } 
+            return tempValue;
+        }
+        var myValue = add(1,2,3,4,5,6,7,8,9,10);
+        alert(myValue);*/
+
+        
+
+    </script>
+</head>
+<body>
+</body>
+</html>

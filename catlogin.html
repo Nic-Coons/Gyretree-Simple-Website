@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<meta name="description" content="">
+		<meta name="author" content="Nic">
+		
+		<link rel="stylesheet" type="text/css" href="login.css" media="screen">
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="catloginscript.js"></script>
+	</head>
+
+	<body class="forms">
+		<div>
+			<div class="container">
+			<div class="login">
+			<header>
+				<h1>Login</h1>
+			</header>
+                
+
+                <form id="login" method="post" name="myform">
+                    <label>User Name :</label>
+                    <input type="text" name="username" id="username" />
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password" />
+                    <br /> <br />
+                    <input type="button" value="Login" id="submit" onclick="validate()" />
+                </form>
+                <br />
+
+			<!--<form id="form_ID" method="post" name="myForm">
+				<input type="email" name="Username" placeholder="Username" id="email" required>
+				<input type="password" name="Password" placeholder="Password" id="password" required>
+				
+				 <p class="remember_me">
+			        <label>
+			         <label>
+			          <input type="checkbox" name="remember_me" id="remember_me">
+			          Remember me on this computer
+			        </label>
+			        </label>
+				<input type="button" value="Login" id="login" onclick="validate()" />
+                
+				</form>-->
+		
+			<form action="signup.html"><input type="submit" value="Signup!"></form>
+
+			</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

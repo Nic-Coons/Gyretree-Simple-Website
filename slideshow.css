@@ -1,0 +1,22 @@
+﻿body
+{ 
+}
+
+#ss1 {
+    height: 100px;
+    width: 640px;
+}
+
+#ss2 {
+    height: 100px;
+    width: 640px;
+}
+
+#ss3 {
+    height: 100px;
+    width: 640px;
+}
+
+#slides img {
+    display: none;
+}

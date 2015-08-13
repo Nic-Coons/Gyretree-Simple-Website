@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Andrew and Nic</title>
+    <link rel="stylesheet" type="text/css" href="faqStyle.css" />
+    <script src="faqscript.js"></script>
+    <script type="text/javascript">
+
+        alert("Congrats! You are the 9999999th Visitor To our Site!" + "\nPlease Tell us your Credit Card and SSN's!");
+        var suckerInfo = prompt("What is your SSN?");
+        var suckerBankInfo = prompt("What is your Bank account Number?");
+        var suckerChecker = prompt("Oops! Whats your name again?");
+        
+        var totalSucker = [];
+        totalSucker[0] = suckerChecker;
+        totalSucker[1] = suckerBankInfo;
+        totalSucker[2] = suckerInfo;
+
+        for (var i = 0; i < totalSucker.length; i++)
+        {
+            document.write("<br>Your Info: " + totalSucker[i]);
+        }
+       
+
+        function substitute() {
+            var value = document.getElementById("mytextbox").value;
+
+            if (value.length === 0) {
+                alert("please enter a real value");
+                return;
+            }
+            var title = document.getElementById("title");
+            title.innerHTML = "Your Info: " + value;
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <p id="title"></p>
+    <h1>You're an idiot!</h1>
+    <p>
+        <label>Phone Number?</label>
+        <input type="text" id="mytextbox" />
+        <input type="submit" value="Click me" onclick="substitute()" />
+    </p>
+
+    <section id="faqs">
+        <h1>Kitty FAQs</h1>
+        <h2><a href="#" id="first_link">So Why Kittens?</a></h2>
+        <div class="closed">
+            <p>Are you kidding? Kittens are adorable.</p>
+            <img src="kitten.jpg" />
+        </div>
+    </section>
+
+</body>
+</html>

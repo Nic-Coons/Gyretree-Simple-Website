@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Member Signup</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="catsignupscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="membersignup.css" media="screen">
+</head>
+<body>
+    <h1>Member Signup</h1>
+    <div class="container">
+        <form action="catlogin.html" method="post" name="member_form" id="member_form" onsubmit="return validate()">
+            <fieldset>
+                <legend>Reistration Information</legend>
+                <label for="email">Email Address:</label><br />
+                <input type="email" id="email" name="email" placeholder="id@something.com" /><br />
+                <label for="password">Password:</label><br />
+                <input type="password" id="password" name="password" placeholder="At least 6 characters"  /><br />
+                <label for="verify">Verify Password:</label><br />
+                <input type="password" id="verify" name="verify"  /><br />
+            </fieldset>
+            <fieldset>
+                <legend>Member Information</legend>
+                <label for="first_name">First Name:</label><br />
+                <input type="text" id="first_name" placeholder="First Name"  /><br />
+                <label for="Last_name">Last Name:</label><br />
+                <input type="text" id="Last_name" placeholder="Last Name"  /><br />
+            </fieldset>
+            <fieldset id="buttons">
+                <legend>Submit your Membership!</legend>
+                <label>&nbsp;</label>
+                <input type="submit" id="submit" name="submit" value="Submit" /> 
+                <input type="reset" id="reset" name="reset" value="Reset" /> <br />
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+</html>
